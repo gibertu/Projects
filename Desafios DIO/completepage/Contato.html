@@ -10,25 +10,42 @@
 <body>
     <div class="wrapper">
         <span class="menu">
-            <!-- Aqui vai o seu menu -->
             <ul>
-                <li><a href="">Início</a></li>
-                <li><a href="">Sobre</a></li>
-                <li><a href="">Atendimento</a></li>
-                <li><a href="">Contato</a></li>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="atendimento.html">Atendimento</a></li>
+                <li><a href="contato.html">Contato</a></li>
             </ul>
         </span>
 
         <div class="main">
             <div class="header">
-               <h1>Nutri Clinic</h1>
-               <img id="logo" src="logo nutri clinic.svg"   alt="logo">
+               <h1 id="inicio">Nutri Clinic</h1>
+               <img id="logo" src="assets/logo nutri clinic.svg"   alt="logo">
             </div>
     
             <div class="content">
-              <h3>Contato</h3>
-              <p>
-             
+              <h3>Informaçõe de Contato</h3>
+            <p>Endereço: <br>
+                São Paulo, SP
+             </p>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d467689.7972153215!2d-46.87549475294078!3d-23.682160383137628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce448183a461d1%3A0x9ba94b08ff335bae!2zU8OjbyBQYXVsbywgU1A!5e0!3m2!1spt-BR!2sbr!4v1667579608275!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+              <form id="Fale Conosco" onsubmit="" method="post">
+                <fieldset form="Fale Conosco">
+                  <legend>Fale Conosco</legend>
+                  <label for="nome">Nome</label>
+                  <input name="nome" type="text">
+                  <label for="email">Email</label>
+                  <input name="email" type="email">
+                  <label for="assunto">Assunto</label>
+                  <input name="assunto" type="text">
+                  <label for="mensagem">Mensagem</label>
+                  <textarea name="mensagem" id="" cols="30" rows="10"></textarea>
+                  <button type="submit">Enviar</button>
+                  <button type="reset">Limpar</button>
+                </fieldset>
+              </form>
             </div>
     
             <div class="footer">
