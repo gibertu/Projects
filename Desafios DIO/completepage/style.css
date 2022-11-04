@@ -1,0 +1,76 @@
+html, body {
+    margin: 0;
+    width:auto;
+}
+body {
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    margin: 0 ;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+}
+.menu {
+    width: 15%;
+    background-color: rgba(0, 255, 179);
+    padding: 10px 50px 0 0;
+    color:#000000
+}
+
+#logo {
+    margin: 0 0 5px 20px;
+    width: 60px;
+}
+
+a {
+
+    color: #000000;
+    text-decoration: none;
+}
+
+h1{
+margin: 0 0 0 20px;
+}
+
+p {
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content:space-between;
+    background-color: rgb(0, 255, 179);
+    font-size:larger;
+    color: #000000;
+}
+
+.content {
+    background-image:url("brasao.png");
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-blend-mode:screen;
+
+    display: flex;
+    flex-flow: column;
+    align-items:center;
+    background-color: rgb(0, 255, 179);
+    min-height: 400px;
+    padding: 20px;
+    font-size: larger;
+}
+.footer {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    background-color: rgb(0, 255, 179);
+    color: #000000;
+}
